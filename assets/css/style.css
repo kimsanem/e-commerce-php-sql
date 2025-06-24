@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+  font-weight: 700;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+label {
+  font-weight: bold;
+}
+
+.required::after {
+  content: "*";
+  color: red
+}
