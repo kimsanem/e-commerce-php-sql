@@ -27,9 +27,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     'id' => $user['id'],
                     'email' => $user['email']
                 ];
-                header("Location: products/index.php");
+                header("Location: users/index.php");
                 exit();
-            } else {
+            } else {    
                 $error = 'Invalid email or password.';
             }
         } else {
@@ -75,6 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <img src="assets/img/logo.png" width="120px" height="120px" alt="Logo">
         </div>
 
+        <!-- success/error alert -->
         <?php if ($error): ?>
             <div class="alert alert-danger"><?php echo $error; ?></div>
         <?php endif; ?>
