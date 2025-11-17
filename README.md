@@ -45,3 +45,36 @@ When “Proceed to Checkout” is pressed:
 - Apache Server  
 
 ---
+
+## 🚀 How to Use This Project
+
+This project is a full PHP-based Grocery Store system that uses **XAMPP**, **Apache**, and **MySQL**.  
+Follow the steps below to set it up on **Windows**, **macOS**, or **Linux**.
+
+---
+
+# 1️⃣ Install XAMPP
+
+XAMPP includes Apache + PHP + MySQL in one package.
+
+### ✅ Windows
+1. Download XAMPP: https://www.apachefriends.org/download.html  
+2. Install it normally.
+3. Open the **XAMPP Control Panel**.
+4. Start:
+   - **Apache**
+   - **MySQL**
+
+### ✅ macOS
+1. Download XAMPP for macOS (ARM or Intel):  
+   https://www.apachefriends.org/download.html
+2. Install and open the XAMPP app.
+3. Go to **Manage Servers**.
+4. Start:
+   - **Apache Web Server**
+   - **MySQL Database**
+
+### ✅ Linux (Ubuntu / Debian)
+```bash
+sudo apt update
+sudo apt install apache2 mysql-server php php-mysqli php-xml php-curl php-zip
