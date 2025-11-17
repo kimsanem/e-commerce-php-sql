@@ -174,7 +174,7 @@ if (isset($_POST['add_to_cart'])) {
         			<div class="desc pl-3">
 	        			<div class="d-flex text align-items-center">
 	        				<h3><span>Coca-Cola Soft Drink</span></h3>
-	        				<span class="price">$2000</span>
+	        				<span class="price">៛2000</span>
 	        			</div>
 	        		</div>
         		</div>
